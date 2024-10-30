@@ -1,0 +1,13 @@
+Flask
+Flask-Cors
+moviepy
+flask-socketio
+Werkzeug
+pytube
+opencv-python
+torch
+numpy
+Pillow
+soundfile
+librosa
+ortools

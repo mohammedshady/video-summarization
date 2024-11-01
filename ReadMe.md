@@ -12,7 +12,7 @@ A video summarization application that employs state-of-the-art deep learning te
 
 After comparing benchmark datasets in the video summarization domain, we selected [TvSum](https://github.com/yalesong/tvsum) due to its decent number of videos and annotators for keyframe scores compared to other datasets. Additionally, instead of using widely available extracted features, we reprocessed the videos and extracted features ourselves to streamline the inference process later.
 
-![Dataset Sample](assets/dataset.png "Dataset Sample")
+![Dataset Sample](assets/datasetSample.png "Dataset Sample")
 
 ### 2- Model Architechture
 

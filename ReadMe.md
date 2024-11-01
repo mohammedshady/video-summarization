@@ -11,16 +11,19 @@ A video summarization application that employs state-of-the-art deep learning te
 ### 1- Data Collection and preprocessing
 
 After comparing benchmark datasets in the video summarization domain, we selected [TvSum](https://github.com/yalesong/tvsum) due to its decent number of videos and annotators for keyframe scores compared to other datasets. Additionally, instead of using widely available extracted features, we reprocessed the videos and extracted features ourselves to streamline the inference process later.
+
 ![Dataset Sample](assets/dataset.png "Dataset Sample")
 
 ### 2- Model Architechture
 
 After Using pretrained models (VGG, GoogLeNet, ResNet) for Feature Extraction and various deep learning architectures (Perceptron, LSTM, GRU, and Self-Attention) for Summary Prediction, we ultimately chose to implement GoogLeNet combined with Self-Attention after evaluating the performance of each model.
+
 ![Model Architechture](assets/model.png "Model Architechture")
 
 ### 3- Application Architechture
 
 We built a web application with a React frontend that interacts with two backend systems: a Python backend for video processing and summarization, and a Laravel backend for managing user accounts, subscriptions, and application logic. MySQL is utilized for handling user data and subscriptions.
+
 ![Application Interface](assets/app.gif "Application Interface")
 
 ## Porject Presentation
